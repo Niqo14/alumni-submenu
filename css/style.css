@@ -67,6 +67,20 @@ margin: 0 auto;
     width: max-content;
 }
 
+.ul .ol {
+    line-height: none;
+}
+
+.nav > li{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
 .enlace{
     padding: 8px 12px;
     border-radius: 3px;
@@ -96,7 +110,6 @@ margin: 0 auto;
 	padding: 15px 15px 15px 20px;
 }
 
-/* Estilo para resaltar la subcategoría activa */
 .submenu a:hover {
     background-color: black;
 
